@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Basics</title>
+  <!--For real projects, download it, because this link can go offline!-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container-md">
+    <h1 class="display-1 text-center text-primary">Bootstrap Playground</h1>
+    <h2 class="display-4">Buttons <span class="badge text-bg-success rounded-pill">New</span></h2>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button class="btn btn-outline-warning">Warning Outline</button>
+    <button class="btn btn-outline-danger">Danger Outline</button>
+    <button class="btn btn-outline-info btn-lg">Info Outline</button>
+    <button class="btn btn-secondary btn-sm">SM Button</button>
+    <button type="button" class="btn btn-success" disabled>Success</button>
+    <button class="btn btn-primary">Updates <span class="badge text-bg-light">9</span></button>
+    <h3>Button Grpups</h3>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button class="btn btn-warning">one</button>
+      <button class="btn btn-danger">two</button>
+      <button class="btn btn-warning">three</button>
+    </div>
+ 
+    <h3>Alerts</h3>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <h4 class="alert-heading">Oh No!</h4>
+      Danger! You are about to end the world as we know it!
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+      </button>
+    </div>
+
+    <h2 class="display-4">Typography</h2>
+    <p class="lead">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem atque et porro magnam consequatur ut dolor ab inventore fuga adipisci possimus fugiat, omnis officia quasi minima voluptates architecto rem vel.
+    </p>
+    <blockquote class="blockquote text-center bg-light">
+      <p class="mb-0">
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Est ab sed iusto alias numquam ipsum tenetur error nostrum similique sunt, quod deserunt totam pariatur consequatur ad exercitationem et ea odio?
+      </p>
+      <footer class="blockquote-footer">Mr. Lorem Ipsum</footer>
+    </blockquote>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

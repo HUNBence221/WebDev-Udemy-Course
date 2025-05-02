@@ -1,0 +1,16 @@
+
+nav {
+  font-family: Raleway, sans-serif;
+  font-size: 1.5em;
+  padding: 25px 0 25px 0;
+  margin-left: calc(10%/6);
+  text-transform: uppercase;
+  border-bottom: solid 2px rgba(231, 231, 231, 0.61);
+  width: 30%;
+}
+
+img {
+  margin: 1.66666%;
+  width: 30%;
+  height: 30%;
+}

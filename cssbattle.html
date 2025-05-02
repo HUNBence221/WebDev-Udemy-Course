@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  /* div {
+    width: 240px;
+    height: 240px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    z-index:1
+  }
+  
+  
+  .square1 {
+    width: 120px;
+    height: 120px;
+    background-color: #D96C7B;
+    position: relative;
+    left: 120px;
+    z-index: 0;
+  }
+  .square2 {
+    width: 120px;
+    height: 120px;
+    background-color: #D96C7B;
+    position: relative;
+    left: 120px;
+    z-index: 0;
+  }
+  .square3 {
+    width: 120px;
+    height: 120px;
+    background-color: #D96C7B;
+    position: relative;
+    bottom: 120px;
+    z-index: 0;
+  }
+  
+  .quater1{
+    z-index:2;
+  }
+  .quater2{
+    z-index:2;
+    transform: rotate(90deg);
+    scale:0.67 0.67;
+  }
+  .quater3{
+    z-index:2;
+    transform: rotate(180deg);
+    scale:0.33 0.33;
+  }
+  .quater4{
+        z-index:2;
+    transform: rotate(270deg);
+    scale:0.17 0.17;
+  }
+  * {
+    background-color:#D96C7B;
+    margin:0;
+    z-index: 0;
+  } */
+
+  body {
+      background-color: #D96C7B;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .circle {
+      width: 240px;
+      height: 240px;
+      background: white;
+      border-radius: 50%;
+      position: relative;
+    }
+
+    .slice {
+      width: 120px;
+      height: 120px;
+      background-color: #D96C7B;
+      position: absolute;
+      border-radius: 0 120px 0 0; /* Creates the "pizza slice" shape */
+      transform-origin: bottom right;
+    }
+
+    .slice1 {
+      top: 0;
+      left: 0;
+      transform: rotate(0deg) scale(1);
+    }
+
+    .slice2 {
+      top: 0;
+      left: 0;
+      transform: rotate(90deg) scale(0.75);
+    }
+
+    .slice3 {
+      top: 0;
+      left: 0;
+      transform: rotate(180deg) scale(0.5);
+    }
+
+    .slice4 {
+      top: 0;
+      left: 0;
+      transform: rotate(270deg) scale(0.25);
+    }
+</style>
+
+</head>
+<body>
+  <!-- <div class="quater1">
+    <p class="square1"></p>
+    <p class="square2"></p>
+    <p class="square3"></p>
+  </div>
+  <div class="quater2">
+    <p class="square1"></p>
+    <p class="square2"></p>
+    <p class="square3"></p>
+  </div>
+  <div class="quater3">
+    <p class="square1"></p>
+    <p class="square2"></p>
+    <p class="square3"></p>
+  </div>
+  <div class="quater4">
+    <p class="square1"></p>
+    <p class="square2"></p>
+    <p class="square3"></p>
+  </div> -->
+
+  <div class="circle">
+    <div class="slice slice1"></div>
+    <div class="slice slice2"></div>
+    <div class="slice slice3"></div>
+    <div class="slice slice4"></div>
+  </div>
+
+</body>
+</html>
+
+
+
