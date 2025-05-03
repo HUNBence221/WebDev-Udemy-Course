@@ -10,6 +10,7 @@
 </head>
 <body>
   <div class="container">
+
     <h1 class="display-1 text-center text-primary">The Grid System</h1>
   <!--The rows have in bootstrap 12 units in total-->
     <div class="row">
@@ -29,6 +30,7 @@
         <div class="col-8 bg-primary">I AM AUTO SIZED</div>
       </div>
     </div>
+
     <h2 class="display-4">Responsve Grid</h2>
     <div class="row">
       <!--It says after the md screen you should take up 6 units, everything below it assumed it will go all the way across -->
@@ -45,8 +47,34 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, neque eos nam omnis earum possimus modi qui perferendis quod ipsam quae illo repellat, architecto eveniet quaerat! Doloremque voluptates temporibus ut!
       </div>
     </div>
+
+    <h2 class="display-5">Grid Alignment</h2>
+    <div class="row align-items-center">
+      <div class="col bg-danger">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolore voluptatem, voluptate numquam laudantium eius porro temporibus culpa eos fuga, mollitia, possimus et odit modi.
+      </div>
+      <div class="col bg-warning">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolore voluptatem, voluptate numquam laudantium eius porro temporibus culpa eos fuga, mollitia, possimus et odit modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id assumenda laboriosam fugit quae sequi inventore, ab molestiae officiis doloremque commodi delectus. Maxime odio in et voluptatem consequatur cum autem quibusdam suscipit quaerat alias dolorum necessitatibus eveniet illo ex repellat maiores eos veniam quo asperiores temporibus aliquam, excepturi fugiat rem?
+      </div>
+      <div class="col bg-success">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolore voluptatem, voluptate numquam laudantium eius porro temporibus culpa eos fuga, mollitia, possimus et odit modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque, modi fugit rem laudantium ratione voluptatum tempore, voluptatibus omnis quisquam dolor sunt doloribus facere deserunt?
+      </div>
+      <div class="col bg-info align-self-end">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolore voluptatem, voluptate numquam laudantium eius porro temporibus culpa eos fuga, mollitia, possimus et odit modi.
+      </div>
+    </div>
+
+    <h3>Justify-content</h3>
+    <div class="row border justify-content-center justify-content-lg-start justify-content-xl-between">
+      <div class="col-md-4 bg-primary">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo excepturi, accusantium quasi eligendi iure obcaecati quos quia laboriosam quis suscipit reprehenderit exercitationem alias rerum a esse perferendis eveniet sapiente eaque.
+      </div>
+      <div class="col-md-4 bg-info">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo excepturi, accusantium quasi eligendi iure obcaecati quos quia laboriosam quis suscipit reprehenderit exercitationem alias rerum a esse perferendis eveniet sapiente eaque.
+      </div>
+    </div>
+
     <div class="row">
-    <!--img-fluid: makes an img scale based upon the size of it's containing element (if we put it inside a column, and the column changes size, the img will as well)-->
       <div class="col-xl-4 col-md-6">
         <img class="img-fluid"
         src="https://images.unsplash.com/photo-1497206365907-f5e630693df0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
@@ -70,11 +98,11 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
   crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
 </html>
