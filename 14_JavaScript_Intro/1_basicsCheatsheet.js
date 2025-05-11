@@ -34,22 +34,6 @@ let numLives = 9;
 numLives++; //numLives is now 10
 numLives--; //numLives is now 9
 
-// Variables with const
-const minimumAge = 21; //CANNOT REASSIGN!
-
-//Booleans - true or false values
-true;
-false;
-let isHappy = true;
-let isActiveGame = true;
-let isLoggedIn = false;
-
-//Naming Conventions
-// Use upper camel-cased names:
-let numberOfChickens = 6; //GOOD
-// NOT THE JS WAY:
-// let number_of_chickens = 6;
-
 // i++ vs ++i
 // i++ is post-increment: returns the value before incrementing
 let i = 0;
@@ -60,3 +44,22 @@ let j = 0;
 // ++j returns 1
 let k = 5;
 ++k; // k is now 6
+
+// Variables with const
+const minimumAge = 21; //CANNOT REASSIGN!
+
+//Booleans - true or false values they can change their value
+true;
+false;
+let isHappy = true;
+let isActiveGame = true;
+let isLoggedIn = false;
+
+//Naming Conventions
+// Use upper camel-cased names:
+let numberOfChickens = 6; //GOOD
+// For boolian variables, use is or has as a prefix:
+let isChicken = true; //GOOD
+
+// NOT THE JS WAY:
+// let number_of_chickens = 6;
