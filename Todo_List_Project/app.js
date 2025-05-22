@@ -1,7 +1,5 @@
 let input = prompt("What would you like to do?")
-const commands = ["quit", "new", "list", "delete"]
 const todos = []
-
 while (input.toLowerCase !== "quit" && input.toLowerCase !== "q") {
   if (input === "quit" || input === "q") {
     break;
@@ -16,16 +14,15 @@ while (input.toLowerCase !== "quit" && input.toLowerCase !== "q") {
     }
     console.log("*************");
   } else if (input === "delete") {
-    let index = parseInt(prompt("Enter the index of the task you want to remove!"));
-    if (index === NaN) {
-      prompt("Enter a real number!")
+  const index = parseInt(prompt('Ok, enter an index to delete:'));
+  //!Number.isNaN() if it's not NaN the code will go through, unless it ask you again
+    if (!Number.isNaN(index)) {
+        const deleted = todos.splice(index, 1);
+        console.log(`Ok, deleted ${deleted[0]}`);
     } else {
-      todos.splice(index, 1);
-      console.log("Todo Removed!")
+        console.log('Unknown index')
     }
   }
-
-
   input = prompt("What would you like to do?")
 }
 console.log("Okay, you quit the app.")
